@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',sans-serif;
+}
+#logo{
+    margin: 0px;
+}
+
+ul{
+
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white; /* delete after */
+    font-size: 18px;
+}
+
+.part-one{
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+    color: white; /* delete after */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.space{
+    flex-grow: 1;
+}
+
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    font-size: 24px;
+    color: #f9f1f8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero{
+    width: 80%;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-left-text{
+    width: 50%;
+}
+#hero-img{
+    background-color: grey;
+    align-self: stretch;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero-button{
+    border-radius: 6px;
+    padding: 8px 24px 8px 24px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+
+#hero-main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+
+#hero-sub-text{
+    margin: 0px 0px 5px 0px;
+    font-size: 18px;
+}
+
+.part-two{
+    height: 350px;
+    background-color: #f9faf8;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 0px;
+    padding: 42px;
+
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.square-pos{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+
+}
+
+.square-con{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 16px;
+    border-width: 4px;
+}
+
+.square-text{
+    font-size: 18px; 
+    text-align: center;
+    margin-top: 10px;
+}
