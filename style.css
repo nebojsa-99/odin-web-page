@@ -38,7 +38,7 @@ a{
 }
 
 .header{
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@ a{
 }
 
 .hero{
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: stretch;
     align-items: center;
@@ -73,7 +73,7 @@ a{
 
 #hero-button{
     border-radius: 6px;
-    padding: 8px 24px 8px 24px;
+    padding: 8px 32px;
     background-color: #3882f6;
     color: #f9faf8;
     border: none;
@@ -98,8 +98,12 @@ a{
 }
 
 .part-two{
-    height: 350px;
+    height: 500px;
     background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
@@ -110,12 +114,14 @@ h2{
     margin: 0px;
     padding: 42px;
 
+
 }
 .square{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
+    flex-grow: 2;
 
 }
 
@@ -140,4 +146,84 @@ h2{
     font-size: 18px; 
     text-align: center;
     margin-top: 10px;
+}
+
+.part-three{
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-pos{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    max-width: 800px;
+}
+
+.quote-speaker{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.part-four{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-box{
+    background-color: #3882f6;
+    width: 70%;
+    border-radius: 5px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#four-button{
+    border-radius: 6px;
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: solid;
+    border-width: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.four-main-text{
+    font-size: 22px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.four-sub-text{
+    color: #f9faf8;
+    font-weight: lighter;
+}
+
+.part-five{
+    min-height: 125px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    color: #f9faf8;
 }
